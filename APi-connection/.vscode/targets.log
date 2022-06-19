@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 14 09:46:24 2022
+# Make data base, printed on Thu Jun 16 18:40:38 2022
 
 # Variables
 
@@ -47,7 +49,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:56832
+JOURNAL_STREAM = 8:62517
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile
@@ -69,7 +71,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 3703
+MANAGERPID = 3695
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -87,7 +89,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/hatsker:@/tmp/.ICE-unix/4281,unix/hatsker:/tmp/.ICE-unix/4281
+SESSION_MANAGER = local/hatsker:@/tmp/.ICE-unix/4094,unix/hatsker:/tmp/.ICE-unix/4094
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -99,7 +101,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 4a1ee512cf884d9f8e4443dbab3568d3
+INVOCATION_ID = f1c81b7afea740a59063fa1cf4704c01
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -109,7 +111,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 220069
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4554
 # automatic
 %F = $(notdir $%)
 # environment
@@ -121,7 +123,7 @@ PWD = /home/jamshidbek/go/src/github.com/Hatsker01/Works/APi-connection
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 4191
+SSH_AGENT_PID = 4064
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -137,7 +139,7 @@ VSCODE_CODE_CACHE_PATH = /home/jamshidbek/.config/Code/CachedData/c3511e6c69bb39
 # environment
 LOGNAME = jamshidbek
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 +F = $(notdir $+)
 # environment
@@ -156,13 +158,10 @@ MAKECMDGOALS := all
 QT_IM_MODULE = ibus
 # environment
 SHLVL = 0
- 
-make: *** No rule to make target 'all'.  Stop.
-
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-dc27474b-a1aa-4776-bbb7-293afcf25f80.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-13618412-1c6a-41fd-a3b6-d6d4fc1987e1.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -232,7 +231,7 @@ LC_ADDRESS = uz_UZ.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 220069
+VSCODE_PID = 4554
 # variable set hash-table stats:
 # Load=110/1024=11%, Rehash=0, Collisions=19/132=14%
 
@@ -242,9 +241,9 @@ VSCODE_PID = 220069
 
 # Directories
 
-# . (device 52, inode 291250): 7 files, no impossibilities.
+# . (device 53, inode 291250): 8 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 8 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -290,16 +289,17 @@ GNUmakefile:
 # Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
+ 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 138 B / avg = 9 B
-# current buf: size = 8162 B / used = 138 B / count = 15 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 16 / storage = 143 B / avg = 8 B
+# current buf: size = 8162 B / used = 143 B / count = 16 / avg = 8 B
 
-# strcache performance: lookups = 18 / hit rate = 16%
+# strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
-# Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
-# Finished Make data base on Tue Jun 14 09:46:24 2022
+# Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
+# Finished Make data base on Thu Jun 16 18:40:38 2022
 
  
