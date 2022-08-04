@@ -4,7 +4,6 @@ import (
 	"time"
 
 	"github.com/Hatsker01/Works/api-token/pkg/logger"
-	// "github.com/dgrijalva/jwt-go"
 	jwt "github.com/dgrijalva/jwt-go"
 )
 

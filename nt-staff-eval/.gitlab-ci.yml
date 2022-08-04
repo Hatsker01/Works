@@ -1,0 +1,16 @@
+stages:
+  - integration
+  - delivery
+  - deploy
+
+build-image:
+  stage: deploy
+  script:
+    - echo $USER
+    - make build-image
+    - make push-image
+    - docker service update --with-registry-auth -d --image gitlab.abutech.uz:5050/hr.najottalim.uz/nt-staff-eval:latest  hr_backend
+  only:
+    - main
+  tags:
+    - crm-server
