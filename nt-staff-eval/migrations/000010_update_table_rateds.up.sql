@@ -1,1 +1,0 @@
-alter table rated add column is_staff bool default false;
